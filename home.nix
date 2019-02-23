@@ -39,9 +39,9 @@ in
       userEmail = "vogesclayton@gmail.com";
       userName = "cvoges12";
     };
-    mbsync = {
-      enable = true;
-    };
+    #mbsync = {
+    #  enable = true;
+    #};
     firefox = {
       enable = true;
       enableAdobeFlash = false;
