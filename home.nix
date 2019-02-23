@@ -5,7 +5,7 @@
 let
   name = "Clayton Voges";
   gmail = "vogesclayton@gmail.com";
-  githubUsername = "cvoges12";
+  username = "cvoges12";
   dots = "/home/cvoges12/dots";
   scripts = "/home/cvoges12/scripts";
   maildir = "/home/cvoges12/Mail";
@@ -36,8 +36,8 @@ in
     };
     git = {
       enable = true;
-      userEmail = "vogesclayton@gmail.com";
-      userName = "cvoges12";
+      userEmail = "${gmail}";
+      userName = "${username}";
     };
     #mbsync = {
     #  enable = true;
